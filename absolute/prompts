@@ -1,0 +1,20 @@
+dbl click absolute folder.png
+wait1
+dbl click computracepic
+wait1
+enter
+enter
+enter
+wait 15
+enter
+
+rclick ctmweb.png
+wait1
+lclick runasadmin.png
+wait 3
+lclick allowaccess.png
+wait1
+lclick text_box.png
+type "password"
+lclick next.png
+lclick testcall.png

@@ -1,0 +1,9 @@
+(505,337) dclick 10.png
+enter
+enter
+left, enter
+enter
+(430,296) lclick 11.png
+(793,566) lclick 12.png
+(907,683) lclick 13.png
+(1205,63) lclick 14.png

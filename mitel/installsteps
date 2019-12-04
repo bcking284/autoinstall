@@ -1,0 +1,15 @@
+double cick 15.png
+wait 15
+click 17
+#prompt
+single click 16.png
+wait 20 seconds
+single click 17.png
+wait1
+single click 18.png
+single click 17.png
+wait1
+single click 17.png
+single click 19.png
+wait 15
+single click 20.png

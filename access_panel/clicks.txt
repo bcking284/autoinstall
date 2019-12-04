@@ -1,0 +1,11 @@
+double click 1
+wait
+click next
+wait
+click install
+wait 3
+click finish
+wait 5
+right click ieicon
+wait1
+click close
