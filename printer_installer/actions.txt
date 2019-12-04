@@ -1,0 +1,10 @@
+dclick printerinstallertooltip.png
+wait30
+single next.png
+wait10
+
+maybe have a loop where each iteration is checking
+ the screen for text that matches a small
+  screenshot and then clicking on that screenshot when found
+
+finish.png

@@ -4,12 +4,20 @@ import clicks
 from mitel.mitel import *
 from access_panel.access import *
 from absolute.absolute import *
+from printer_installer.pinstall import *
 
-install_absolute()
-time.sleep(5)
-install_access_panel()
-time.sleep(5)
-install_mitel()
-# install_printer_installer()
+
+
+
+
+# install_absolute()
+# wait(5)
+# install_access_panel()
+# wait(5)
+# install_mitel()
+# wait(5)
+
+install_printer_installer()
 # install_teams()
 # install_vpn()
+# install_Ch_Ad()
