@@ -10,14 +10,14 @@ from printer_installer.pinstall import *
 
 
 
-# install_absolute()
+install_absolute()
 # wait(5)
 # install_access_panel()
 # wait(5)
 # install_mitel()
 # wait(5)
 
-install_printer_installer()
-# install_teams()
+# install_printer_installer()
+# # install_teams()
 # install_vpn()
 # install_Ch_Ad()

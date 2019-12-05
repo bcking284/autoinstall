@@ -1,5 +1,6 @@
 import pyautogui
 import time
+
 def double_click_image(imagefile):
 	pyautogui.click(pyautogui.locateOnScreen(imagefile),button='left', clicks=2,duration=1)
 
@@ -21,3 +22,6 @@ def arrow_key(direction):
 
 def wait(leng):
 	time.sleep(leng)
+
+def check_for_image(image):
+	pass
