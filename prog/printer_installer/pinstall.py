@@ -3,6 +3,7 @@ import pyautogui
 import time
 
 def install_printer_installer():
+    single_click_image('prog/printer_installer/img/focus_pinstaller.png')
     double_click_image('prog/printer_installer/img/pinstallertooltip.png')
 
     wait_and_click('prog/printer_installer/img/printer_installer_title_bar.png',1,'left')

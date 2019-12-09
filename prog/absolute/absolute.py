@@ -22,7 +22,7 @@ def install_absolute():
 	while not check_for_image('prog/absolute/imgs/textbox.png'):
 		right_click_image('prog/absolute/imgs/ctmweb.png')
 		single_click_image('prog/absolute/imgs/runasadmin.png')
-		time.sleep(5)
+		time.sleep(10)
 
 
 	if check_for_image('prog/absolute/imgs/allowaccess.png'):
@@ -36,6 +36,7 @@ def install_absolute():
 		single_click_image('prog/absolute/imgs/ctm_start.png')
 
 	single_click_image('prog/absolute/imgs/ctmtooltip.png')
+	single_click_image('imgs/new_pc_setup.png')
 	# wait(0.5)
 	# single_click_image('prog/absolute/imgs/close_window.png')
 	# wait(1)
