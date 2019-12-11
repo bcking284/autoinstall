@@ -36,3 +36,7 @@ def wait_for_image(image):
 
 def check_for_image(image):
 	return imagesearch(image) != [-1,-1]
+
+def hotkey(keys):
+    #pass in list for keys
+    pyautogui.hotkey(keys)

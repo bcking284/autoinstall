@@ -1,7 +1,5 @@
 from clicks import *
 from imagesearch import *
-#wait for image on screen
-#when you find the image, cpress a key
+from prog.chrome.chrome import install_chrome
 
-if check_for_image('testimg.png'):
-    print('check for image returned True')
+install_chrome()
