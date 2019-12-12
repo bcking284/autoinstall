@@ -24,24 +24,25 @@ from prog.chrome.chrome import *
 # if check_for_image('imgs/new_pc_setup.png'):
 #     double_click_image('imgs/new_pc_setup.png')
 
-##need to come back for access panel on new computer. Network resource not available
-# install_access_panel()
-
 #works
+# install_access_panel()
+# works
 # install_chrome()
 
-##need to come back for Mitel on fresh computer
+# works
 # install_mitel()
 
-#works
+# works
 # install_printer_installer()
 
 # come back to adobe on new computer so don't have to uninst chrome
-# install_adobe()
-#
+install_adobe()
 
-#works
-install_teams()
+
+# works
+# install_teams()
+
+
 # install_vpn()
 # install_Ch_Ad()
 # install_cylance()
