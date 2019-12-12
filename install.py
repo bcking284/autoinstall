@@ -14,35 +14,36 @@ from prog.chrome.chrome import *
 
 
 
-# if check_for_image('imgs/new_pc_setup.png'):
-#     double_click_image('imgs/new_pc_setup.png')
-#
-#
-##works
-# install_absolute()
-#
-# if check_for_image('imgs/new_pc_setup.png'):
-#     double_click_image('imgs/new_pc_setup.png')
+if check_for_image('imgs/new_pc_setup.png'):
+    double_click_image('imgs/new_pc_setup.png')
+
+
 
 #works
-# install_access_panel()
-# works
-# install_chrome()
+install_absolute()
+
+if check_for_image('imgs/new_pc_setup.png'):
+    double_click_image('imgs/new_pc_setup.png')
 
 # works
-# install_mitel()
+install_access_panel()
 
 # works
-# install_printer_installer()
+install_chrome()
 
-# come back to adobe on new computer so don't have to uninst chrome
+# works
+install_mitel()
+
+# works
+install_printer_installer()
+
+# works
 install_adobe()
 
-
 # works
-# install_teams()
+install_teams()
 
 
-# install_vpn()
-# install_Ch_Ad()
-# install_cylance()
+install_vpn()
+install_Ch_Ad()
+install_cylance()
