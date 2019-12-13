@@ -16,49 +16,49 @@ def click_file_explorer():
 	if not check_for_image('imgs/file_icon.png'):
 		single_click_image('imgs/file_explorer_icon.png')
 
-# while not check_for_image('imgs/new_pc_setup.png'):
-# 	if check_for_image('imgs/new_pc_setup.png'):
-# 	    double_click_image('imgs/new_pc_setup.png')
-# 	    break
-# 	    wait(3)
+while not check_for_image('imgs/new_pc_setup.png'):
+	if check_for_image('imgs/new_pc_setup.png'):
+	    double_click_image('imgs/new_pc_setup.png')
+	    break
+	    wait(3)
 
 
 
-# ##works
-# install_absolute()
+##works
+install_absolute()
 
-# if check_for_image('imgs/new_pc_setup.png'):
-#     double_click_image('imgs/new_pc_setup.png')
-
-# works
-# install_access_panel()
-
-# click_file_explorer()
-# # works
-# install_chrome()
-
-# click_file_explorer()
+if check_for_image('imgs/new_pc_setup.png'):
+    double_click_image('imgs/new_pc_setup.png')
 
 # works
-# install_mitel()
+install_access_panel()
 
-# click_file_explorer()
+click_file_explorer()
+# works
+install_chrome()
 
-# # works
-# install_printer_installer()
-
-# click_file_explorer()
+click_file_explorer()
 
 # works
-# install_adobe()
+install_mitel()
 
-# click_file_explorer()
+click_file_explorer()
 
-# # works
-# install_teams()
+# works
+install_printer_installer()
 
-#works
-# install_vpn()
+click_file_explorer()
 
-install_imaging()
+# works
+install_adobe()
+
+click_file_explorer()
+
+# works
+install_teams()
+
+# works
+install_vpn()
+
+# install_imaging()
 install_cylance()

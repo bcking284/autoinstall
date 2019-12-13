@@ -20,6 +20,8 @@ def install_absolute():
 			press_enter()
 
 	while not check_for_image('prog/absolute/imgs/textbox.png'):
+		if check_for_image('prog/absolute/imgs/windows_defender.png'):
+			single_click_image('prog/absolute/imgs/defender_allow.png')
 		right_click_image('prog/absolute/imgs/ctmweb.png')
 		single_click_image('prog/absolute/imgs/runasadmin.png')
 		time.sleep(10)
