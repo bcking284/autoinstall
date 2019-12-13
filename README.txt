@@ -4,9 +4,9 @@ USER GENERIC SETUP
 
 1. *user* manually disable UAC
 2. Join to domain and change name to user FLAST-MODEL
-3. Grab NEWPCW10 from fileserver or have saved in folder with program
-4. Change view to large icons
-5. Install absolute
+3. have saved in folder with program
+
+5. Install absolute.
 6. Install Access Panel Extension.msi
 7. install MitelConnect.exe
 8. (optional) Drag Howtovpn out to desktop
