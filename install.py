@@ -11,6 +11,7 @@ from prog.teams.teamsinst import *
 from prog.vpn.vpn_inst import *
 from prog.cylance.cyinstall import *
 from prog.chrome.chrome import *
+from prog.imaging.imaging import *
 
 def click_file_explorer():
 	if not check_for_image('imgs/file_icon.png'):
@@ -62,6 +63,10 @@ click_file_explorer()
 install_vpn()
 
 click_file_explorer()
-# install_imaging()
+
 install_cylance()
+
+click_file_explorer()
+
+install_imaging()
 
