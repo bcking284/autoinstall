@@ -57,8 +57,11 @@ click_file_explorer()
 # works
 install_teams()
 
+click_file_explorer()
 # works
 install_vpn()
 
+click_file_explorer()
 # install_imaging()
 install_cylance()
+
