@@ -6,10 +6,11 @@ def install_vpn():
         press_enter()
         press_enter()
         press_enter()
-        if check_for_image('prog/vpn/imgs/create_desktop_icon.png'):
-            single_click_image('prog/vpn/imgs/create_desktop_icon.png')
-        if check_for_image('prog/vpn/imgs/create_desktop_icon1.png'):
-            single_click_image('prog/vpn/imgs/create_desktop_icon1.png')
+        # if check_for_image('prog/vpn/imgs/create_desktop_icon.png'):
+        #     single_click_image('prog/vpn/imgs/create_desktop_icon.png')
+        # if check_for_image('prog/vpn/imgs/create_desktop_icon1.png'):
+        #     single_click_image('prog/vpn/imgs/create_desktop_icon1.png')
+        type_string('d')
         press_enter()
         press_enter()
         if wait_for_image('prog/vpn/imgs/completed.png'):
