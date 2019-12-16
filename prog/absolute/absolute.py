@@ -7,9 +7,11 @@ def install_absolute():
 	while not check_for_image('prog/absolute/imgs/select_lang_prompt.png'):
 		if check_for_image('prog/absolute/imgs/computracepic.png'):
 			double_click_image('prog/absolute/imgs/computracepic.png')
+			
 		if check_for_image('prog/absolute/imgs/computracepic2.png'):
 			double_click_image('prog/absolute/imgs/computracepic2.png')
-		wait(3)
+
+		wait(10)
 		
 	if wait_for_image('prog/absolute/imgs/select_lang_prompt.png'):
 		press_enter()
@@ -27,8 +29,9 @@ def install_absolute():
 	while not check_for_image('prog/absolute/imgs/textbox.png'):
 		if check_for_image('prog/absolute/imgs/windows_defender.png'):
 			single_click_image('prog/absolute/imgs/defender_allow.png')
-		right_click_image('prog/absolute/imgs/ctmweb.png')
-		single_click_image('prog/absolute/imgs/runasadmin.png')
+		if check_for_image('prog/absolute/imgs/ctmweb.png'):
+			right_click_image('prog/absolute/imgs/ctmweb.png')
+			single_click_image('prog/absolute/imgs/runasadmin.png')
 		time.sleep(10)
 
 

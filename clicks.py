@@ -4,10 +4,10 @@ from imagesearch import *
 
 
 def wait_and_click(image, clicks,button):
-    pyautogui.moveTo(x=100,y=100)
     pos = imagesearch_loop(image, 1)
     click_image(image,pos,action = button,timestamp=1,clicks=clicks)
-
+    pyautogui.moveTo(x=100,y=100)
+    
 def double_click_image(imagefile):
 
 	wait_and_click(imagefile,clicks=2, button='left')
