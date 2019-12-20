@@ -1,4 +1,4 @@
 import pyautogui
-from prog.clicks import *
-
-double_click_image('imgs/11.png')
+from clicks import *
+def install_g2a():
+	double_click_image('prog/gotoassist/imgs/11.png')

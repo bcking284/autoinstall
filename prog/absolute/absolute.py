@@ -1,18 +1,19 @@
 import pyautogui
 from clicks import *
 import time
+import os
 
 def install_absolute():
 	double_click_image('prog/absolute/imgs/absolute_folder.png')
 	while not check_for_image('prog/absolute/imgs/select_lang_prompt.png'):
 		if check_for_image('prog/absolute/imgs/computracepic.png'):
 			double_click_image('prog/absolute/imgs/computracepic.png')
-			
+
 		if check_for_image('prog/absolute/imgs/computracepic2.png'):
 			double_click_image('prog/absolute/imgs/computracepic2.png')
 
-		wait(10)
-		
+		wait(3)
+
 	if wait_for_image('prog/absolute/imgs/select_lang_prompt.png'):
 		press_enter()
 	if wait_for_image('prog/absolute/imgs/welcome_message.png'):
