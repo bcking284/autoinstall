@@ -5,21 +5,24 @@ import os
 
 def install_absolute():
 	double_click_image('prog/absolute/imgs/absolute_folder.png')
-	while not check_for_image('prog/absolute/imgs/select_lang_prompt.png'):
-		if check_for_image('prog/absolute/imgs/computracepic.png'):
-			double_click_image('prog/absolute/imgs/computracepic.png')
+	wait(3)
+	if check_for_image('prog/absolute/imgs/computracepic2.png'):
+		double_click_image('prog/absolute/imgs/computracepic2.png')
 
-		if check_for_image('prog/absolute/imgs/computracepic2.png'):
-			double_click_image('prog/absolute/imgs/computracepic2.png')
+	else:
+		check_for_image('prog/absolute/imgs/computracepic.png')
+		double_click_image('prog/absolute/imgs/computracepic.png')
 
-		wait(3)
-
+	
 	if wait_for_image('prog/absolute/imgs/select_lang_prompt.png'):
 		press_enter()
+
 	if wait_for_image('prog/absolute/imgs/welcome_message.png'):
 		press_enter()
+
 	if wait_for_image('prog/absolute/imgs/start_install_prompt.png'):
 		press_enter()
+
 	if wait_for_image('prog/absolute/imgs/installer_complete.png'):
 		if check_for_image('prog/absolute/imgs/dont_restart_prompt.png'):
 			single_click_image('prog/absolute/imgs/dont_restart_prompt.png')
